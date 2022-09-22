@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+.headertop{
+    background-color: #2f2e33;
+    height: 68px;
+}
+.headertop ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-block: 20px;
+}
+.header-col-2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header-col-2 li{
+    margin-right: 55px;
+}
+.header-col-1 li:nth-child(2){
+   margin-left: 20px;
+}
+.dropdown-topheader{
+    margin-inline: 10px;
+    font-weight: 700;
+}
+.headertop ul li{
+    list-style: none;
+}
+.headertop ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav{
+    background-color: #ff7220;
+    font-family: Inter; 
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav svg{
+    margin-top: 25px;
+}
+.navul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.navul li{
+    list-style: none;
+    padding: 38px 51px;
+    display: flex;
+    align-items: center;
+}
+.navul li:hover {
+    background-color: #ffffff;
+}
+.navul li a{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+}
+.navul li:hover a{
+    color: #ff7220;
+}
+.navul li:nth-child(1){
+    background-color: #ffffff;
+}
+.navul li:nth-child(1) a{
+    color: #ff7220;
+}
+.hoverline{
+    position: absolute;
+    top: 58px;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    background-color: #ff7220;
+
+}
+.hoverline:not(:nth-child(1)){
+    display: none;
+}
+.navul li:hover .hoverline{
+    display: block;
+}
+
+.headerbottom{
+    display: flex;
+    align-items: center;
+   height: 112px;
+    font-family: Inter; 
+   font-size: 18px;
+   font-weight: 700;
+}
+.headerbottom ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.headerbottom ul li{
+    list-style: none;
+}
+.headerbottom ul li svg{
+    margin-right: 15px;
+}
+ .headerbottom ul li:nth-child(2){
+    margin-left: 140px;
+}
+.headerbottom ul li:nth-child(3){
+    margin-left: 171px;
+} 
+
+.blog-section-1{
+   background-image: url(./img/png/bgprimary.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position-y: bottom;
+   padding-bottom: 80px;
+   font-family: Inter;
+}
+.imgprimary{
+    position: relative;
+    margin-bottom: 34px;
+}
+.imgprimary img{
+    width: 100%;
+    height: 800px;
+}
+.imgprimary p{
+    position: absolute;
+    top: 25%;
+    left: 15.8%;
+    font-size: 40px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.imgprimary h1{
+    position: absolute;
+    top: 30%;
+    left: 15.8%;
+    font-size: 100px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-inline-end: 700px;
+    line-height: 1.4;
+}
+
+.imgsecondary img{
+    height: 100%;
+    width: 100%;
+    color: #2f2e33;
+    padding-top: 70px;
+}
+.imgsecondary h1{
+   margin-top: 254px; 
+   margin-inline-end: 25px;
+   font-size: 60px;
+   font-weight: 700;
+}
+.imgsecondary h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 38px;
+ }
+ .imgsecondary p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 38px;
+ }
+ .detoxifier{
+    color: #ff7220;
+ }
+.blog-section-2 img{
+    width: 100%;
+    height: 800px;
+}
+ .blog-section-2{
+    /* font-family: inter; */
+    color: #2f2e33;
+    background-image: url(./img/png/secondbg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+ }
+ .blog-section-2-para p{
+    font-size: 16px;
+    font-weight: 400;  
+    margin-top: 71px;
+    margin-bottom: 50px;   
+ }
+ .blog-section-2-para h1{
+    font-size: 35px;
+    font-weight: 800;     
+ }
+ .blog-section-2-para h5{
+    font-size: 16px;
+    font-weight: 600;     
+ }
+ .Fketoxifie{
+    color: #ff7220;
+ }
+
+ .usage-container{
+    margin-top: 54px;
+    color: #2f2e33;
+    margin-bottom: 72px;
+    /* font-family: inter; */
+ }
+ .usage-container p{
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .usage-container h1{
+    font-size: 60px;
+    font-weight: 600;
+ }
+ .usage-heading h1{
+    margin-bottom: 60px;
+    text-align: center;
+ }
+ .usage-heading p{
+    margin-bottom: 73px;
+    text-align: center;
+    padding-inline: 90px;
+ }
+ .usage-container svg{
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 32px;
+ }
+ .usage-items p{
+    margin-bottom: 85px;
+    padding-inline: 20px;
+    line-height: 2;
+    text-align: center;
+ }
+ .usage-button{
+    width: 377px;
+    height: 55px;
+    margin-inline: auto;
+    display: block;
+    background-color: #ff7220;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+ }
+
+ .blog-section-3{
+    color: #2f2e33;
+    /* font-family: inter; */
+ }
+ .blog-section-3 img{
+    width: 100%;
+    height: 792px;
+ }
+ .blog-section-3 h1{
+       font-weight: 700;
+       font-size: 60px;
+       margin-top: 130px;
+       margin-left: 29px;
+ }
+ .blog-section-3 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-left: 38px;
+ }
+ .blog-section-3 li{
+    position: relative;
+    margin-top: 27px;
+    line-height: 1.7;
+    list-style: none;
+    padding-left: 77px;
+ }
+ .blog-section-3 ul{
+    padding-left: 0;
+ }
+ .orangedot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff7220;
+    position: absolute;
+    top: 7px;
+    left: 41px;
+ }
+
+
+ .blog-section-3-bg{
+    background-image: url(./img/png/third-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 86px;
+ }
+ .section-3img-2{
+    height: 496px;
+ }
+ .blog-section-3-bg{
+     font-size: 26px;
+     font-weight: 500;
+     /* font-family: inter; */
+     color: #2f2e33;
+ }
+ .blog-section-3-bg ul{
+    margin-top: 168px;
+ }
+
+ .unique-container img{
+    width: 100%;
+    height: 1075px;
+ }
+ .spec-container h1{
+    /* font-family: inter; */
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+ }
